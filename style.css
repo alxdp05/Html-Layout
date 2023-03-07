@@ -100,11 +100,11 @@ h1 {
     text-align: left;
 }
 
-.ex1{
+.grid10{
     background-color:rgb(224, 230, 255);
 }
 
-.ex2 {
+.grid20 {
     background-color: rgb(197, 255, 182);
 }
 
@@ -118,13 +118,13 @@ h1 {
   text-align: left;
 }
 
-.ex30{
+.grid1{
   background-color:rgb(224, 255, 228);
 }
-.ex20 {
+.grid2 {
   background-color: rgb(131, 122, 255);
 }
-.ex10 {
+.grid3 {
   background-color: rgb(255, 215, 182);
 }
 
@@ -140,20 +140,20 @@ h1 {
   text-align: left;
 }
 
-.extro1{
+.grid70{
   background-color:rgb(194, 255, 182);
   grid-column: 1 / 4;
 }
-.extro2 {
+.grid80 {
   background-color: rgb(224, 230, 173);
 }
-.extro3 {
+.grid90 {
   background-color: rgb(131, 122, 255);
 }
-.extro4 {
+.grid110 {
   background-color: rgb(231, 224, 255);
 }
-.extro5 {
+.grid120 {
   background-color: rgb(153, 144, 238);
   grid-column: 1 / 4;
 }
@@ -168,16 +168,16 @@ h1 {
   text-align: left;
 }
 
-.otro1{
+.grid200{
   background-color:rgb(211, 23, 52);
 }
-.otro2 {
+.grid210 {
   background-color: rgb(45, 71, 156);
 }
-.otro3 {
+.grid220 {
   background-color: rgb(138, 44, 91);
 }
-.otro4 {
+.grid230 {
   background-color: rgb(63, 201, 189);
 }
 
@@ -190,19 +190,19 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   padding: 1em;
-  border: 1px solid blue;
+  border: 1px solid rgb(255, 0, 34);
   text-align: left;
 }
 
-.otros1{
+.grid160{
   background-color:rgb(182, 208, 255);
 }
-.otros2 {
+.grid170 {
   background-color: rgb(182, 230, 173);
 }
-.otros3 {
+.grid180 {
   background-color: rgb(122, 255, 233);
 }
-.otros4 {
+.grid190 {
   background-color: rgb(229, 224, 255);
 }
